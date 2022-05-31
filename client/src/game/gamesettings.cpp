@@ -7,7 +7,7 @@ using namespace std;
 
 string homedir = getenv("HOME");
 
-string endHomeDir = "/.local/share/dynablaster-revenge/data/game.ini";
+string endHomeDir = "/.var/app/com.github.pizzadude.dynablaster_revenge/data/game.ini";
 
 string fullDir = homedir + endHomeDir;
 
