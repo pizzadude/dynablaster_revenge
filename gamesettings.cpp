@@ -3,9 +3,7 @@
 
 #include <cstdint>
 
-QString qstrong = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
-
-QString qstrung = qstrong + "/dynablaster/game.ini";
+QString qstrung = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/dynablaster/game.ini";
 
 #define SETTINGS_FILE qstrung
 
