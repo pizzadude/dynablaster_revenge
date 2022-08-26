@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <stdlib.h>
+#include <QStandardPaths>
 
 using namespace std;
 
