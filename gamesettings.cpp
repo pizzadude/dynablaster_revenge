@@ -1,22 +1,11 @@
 #include "gamesettings.h"
-#include <iostream>
-#include <string>
-#include <stdlib.h>
 #include <QStandardPaths>
-
-using namespace std;
-
-#string homedir = getenv("HOME");
-
-#string endHomeDir = "/.var/app/com.github.varnholt.dynablaster_revenge/data/game.ini";
-
-#string fullDir = homedir + endHomeDir;
 
 #include <cstdint>
 
-#QString qstrung = QString::fromStdString(fullDir);
+QString qstrong = QStandardPaths::writableLocation(QStandardPaths::ConfigLocation);
 
-QString qstrung = QStandardPaths::ConfigLocation + "game.ini";
+QString qstrung = qstrong + "/dynablaster/game.ini";
 
 #define SETTINGS_FILE qstrung
 
